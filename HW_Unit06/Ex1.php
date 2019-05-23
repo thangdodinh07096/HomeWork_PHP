@@ -6,7 +6,7 @@
 		var $soLuong;
 		var $hangSX;
 		function inTT(){
-			echo "Thông tin của sản phẩm: ".$this->TenSP;
+			echo "<br>Thông tin của sản phẩm: ".$this->TenSP;
 			echo "<br>--------------------------------------";
 			echo "<br>Mã sản phẩm: ".$this->MSP;
 			echo "<br>Tên sản phẩm: ".$this->TenSP;
