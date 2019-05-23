@@ -12,28 +12,28 @@
 		"MaSP"=> "SP02",
 		"TenSP"=> "IP4",
 		"SoLuong"=> "100",
-		"Gia"=> "4000000",
+		"Gia"=> "3000000",
 		"#"=> "#",
 	);
 	$products["SP03"]= array(
 		"MaSP"=> "SP03",
 		"TenSP"=>"IP5",
 		"SoLuong"=> "100",
-		"Gia"=> "12000000",
+		"Gia"=> "4500000",
 		"#"=> "#",
 	);
 	$products["SP04"]= array(
 		"MaSP"=> "SP04",
 		"TenSP"=>"IP6",
 		"SoLuong"=> "100",
-		"Gia"=> "12000000",
+		"Gia"=> "5000000",
 		"#"=> "#",
 	);
 	$products["SP05"]= array(
 		"MaSP"=> "SP05",
 		"TenSP"=>"IP7",
 		"SoLuong"=> "100",
-		"Gia"=> "12000000",
+		"Gia"=> "7500000",
 		"#"=> "#",
 	);
 	$products["SP06"]= array(
@@ -45,11 +45,10 @@
 	);
 	$products["SP07"]= array(
 		"MaSP"=> "SP07",
-		"TenSP"=>"IPXS",
+		"TenSP"=>"IPX",
 		"SoLuong"=> "100",
-		"Gia"=> "12000000",
+		"Gia"=> "15000000",
 		"#"=> "#",
 	);
-
 
 ?>

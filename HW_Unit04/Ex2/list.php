@@ -1,20 +1,6 @@
 <?php 
 
 	session_start();
-	$MSV = $_POST['msv'];
-	$_SESSION['infor'][$MSV] = array(
-		"MSV" => $_POST['msv'],
-		"TenSV" => $_POST['name'],
-		"Mail" => $_POST['mail'],
-		"Sdt" => $_POST['sdt'],
-		"GT" => $_POST['gt'],
-		"Address" => $_POST['address'],
-		"#" => "#",
-	);
-	if (isset($_POST['msv']) && isset($_POST['name']) && isset($_POST['mail']) && isset($_POST['sdt']) && isset($_POST['gt']) && isset($_POST['address'])) {		
-	} else {
-		header('location: signIn.php');
-	}
 
 ?>
 <!DOCTYPE html>
@@ -54,7 +40,7 @@
 					<td><?php echo $student['TenSV']; ?></td>
 					<td><?php echo $student['MSV']; ?></td>
 					<td><?php echo $student['Mail']; ?></td>
-					<td>#Detail</td>
+					<td><a href="detail.php?MSV=<?php echo$student['MSV']; ?>" class="btn btn-info">#Detail</a></td>
 				</tr>
 			<?php } ?>
 		</tbody>
